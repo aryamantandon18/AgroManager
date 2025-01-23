@@ -35,11 +35,11 @@ export default function SignUp() {
 
   // State for form data and errors
   const [formData, setFormData] = useState({
-    firstName: "sam",
-    lastName: "kumar",
-    email: "sam@gmail.com",
-    password: "password@",
-    confirmPassword: "password@",
+    firstName: "",
+    lastName: "",
+    email: "",
+    password: "",
+    confirmPassword: "",
   });
   const [errors, setErrors] = useState({});
 
