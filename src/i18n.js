@@ -18,7 +18,7 @@ i18n
       hi: {
         translation: hiTranslation,
       },
-      fe: {
+      fr: {
         translation: frTranslation,
       },
     },
