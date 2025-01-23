@@ -1,0 +1,237 @@
+{
+  "common": {
+    "agromanager": "AgroManager",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next"
+  },
+  "hero": {
+    "welcome": "Welcome to",
+    "title": "AgroManager",
+    "para":"Empowering farmers to track expenses, optimize resources, and grow smarter. FarmFolio is your one-stop solution for managing every detail of your farm with ease.",
+    "subtitle": "Track your farm expenses, analyze reports, and get AI-powered insights with FarmFolio",
+    "cta": "Get Started"
+  },
+
+  "features":{
+    "heading": "Key Features",
+    "title1": "Expense Tracking",
+    "description1":"Easily log and categorize all your farm expenses.",
+    "title2": "Analytics & Reports",
+    "description2":"Visualize your farm data with detailed reports and analytics.",
+    "title3": "Inventory Management",
+    "description3":"Keep track of your farm resources and optimize their usage.",
+    "title4": "Crop Planning",
+    "description4":"Plan your crop cycles and manage your farm efficiently."
+  },
+
+  "testimonials":{
+    "heading": "What Our Users Say",
+    "name1": "Naman Jain",
+    "review1": "FarmFolio has made it so easy for me to manage my farm expenses. I can now track everything in one place.",
+    "name2": "Arjun Reddy",
+    "review2": "The analytics feature helped me identify areas to cut costs.",
+    "name3": "Sarthak Tyagi",
+    "review3": "The reports and analytics have helped me make better decisions for my farm. Highly recommended!"
+  },
+
+  "ctasection":{
+    "title":"Ready to streamline your farm management?",
+    "subtitle":"Join FarmerFolio today and take control of your farm's finances.",
+    "cta":"Get Started"
+  },
+"footer":{
+    "aboutUs": "About FarmFolio",
+    "aboutUsDesc": "FarmerFolio is dedicated to helping farmers manage their expenses and optimize resources to grow smarter.",
+    "quickLinks": "Quick Links",
+    "features": "Features",
+    "pricing": "Pricing",
+    "contact": "Contact Us",
+    "faq": "FAQs",
+    "getInTouch": "Get in Touch",
+    "email": "Email",
+    "phone": "Phone",
+    "rights": "All Rights Reserved."
+},
+
+"signup":{
+    "heading": "Join FarmFolio",
+    "subheading": "Empower your farming journey with ease.",
+    "signup": "Sign Up",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign In",
+    "google": "Continue with Google",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password"
+},
+
+
+"login":{
+    "welcomeBack": "Welcome Back",
+    "subheading": "Track your farms effortlessly with FarmFolio.",
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "dontHaveAccount": "Don't have an account?",
+    "signUp": "Sign up now"
+},
+  "auth": {
+    "welcomeBack": "Welcome Back",
+    "createAccount": "Create Account",
+    "forgotPassword": "Forgot Password?",
+    "resetPassword": "Reset Password",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "orContinueWith": "Or continue with",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "signInHere": "Sign in here",
+    "signUpHere": "Sign up here",
+    "googleSignIn": "Continue with Google"
+  },
+
+  "nav": {
+    "dashboard": "Dashboard",
+    "farmManagement": "Farm Management",
+    "expenseTracking": "Expense Tracking",
+    "reports": "Reports & Analytics",
+    "farmAI": "FarmAI",
+    "settings": "Settings",
+    "profile": "Profile",
+    "help": "Need Help?"
+  },
+
+  "dashboard": {
+    "welcome": "Welcome to FarmFolio",
+    "totalFarms": "Total Farms",
+    "totalExpenses": "Total Expenses",
+    "recentExpenses": "Recent Expenses",
+    "quickStats": "Quick Stats",
+    "farmSummary": "Farm Summary",
+    "expenseOverview": "Expense Overview",
+    "pendingPayments": "Pending Payments",
+    "paidAmount": "Paid Amount"
+  },
+
+  "farm": {
+    "addFarm": "Add Farm",
+    "editFarm": "Edit Farm",
+    "deleteFarm": "Delete Farm",
+    "farmName": "Farm Name",
+    "location": "Location",
+    "village": "Village",
+    "mandal": "Mandal",
+    "district": "District",
+    "area": "Area",
+    "areaUnit": "Area Unit",
+    "acres": "Acres",
+    "guntas": "Guntas",
+    "cropType": "Crop Type",
+    "season": "Season",
+    "currentStage": "Current Stage",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "deleteConfirm": "Are you sure you want to delete this farm?",
+    "farmAdded": "Farm added successfully",
+    "farmUpdated": "Farm updated successfully",
+    "farmDeleted": "Farm deleted successfully"
+  },
+
+  "expense": {
+    "addExpense": "Add Expense",
+    "editExpense": "Edit Expense",
+    "deleteExpense": "Delete Expense",
+    "category": "Category",
+    "subCategory": "Sub Category",
+    "amount": "Amount",
+    "date": "Date",
+    "description": "Description",
+    "paymentStatus": "Payment Status",
+    "paymentMode": "Payment Mode",
+    "paid": "Paid",
+    "pending": "Pending",
+    "cash": "Cash",
+    "upi": "UPI",
+    "bankTransfer": "Bank Transfer",
+    "credit": "Credit",
+    "expenseAdded": "Expense added successfully",
+    "expenseUpdated": "Expense updated successfully",
+    "expenseDeleted": "Expense deleted successfully",
+    "categories": {
+      "seeds": "Seeds",
+      "fertilizers": "Fertilizers",
+      "pesticides": "Pesticides",
+      "labor": "Labor",
+      "equipment": "Equipment",
+      "irrigation": "Irrigation",
+      "transportation": "Transportation",
+      "others": "Others"
+    }
+  },
+
+  "reports": {
+    "expenseAnalysis": "Expense Analysis",
+    "categoryAnalysis": "Category Analysis",
+    "monthlyTrends": "Monthly Trends",
+    "paymentAnalysis": "Payment Analysis",
+    "exportReport": "Export Report",
+    "printReport": "Print Report",
+    "filterByDate": "Filter by Date",
+    "filterByCategory": "Filter by Category",
+    "filterByStatus": "Filter by Status",
+    "from": "From",
+    "to": "To",
+    "total": "Total",
+    "average": "Average",
+    "highest": "Highest",
+    "lowest": "Lowest"
+  },
+
+  "farmAI": {
+    "assistant": "FarmAI Assistant",
+    "chat": "AI Chat",
+    "diseaseDetection": "Disease Detection",
+    "askAnything": "Ask anything about farming...",
+    "uploadImage": "Upload Image",
+    "takePhoto": "Take Photo",
+    "analyzing": "Analyzing...",
+    "suggestions": "Suggestions",
+    "treatment": "Treatment",
+    "prevention": "Prevention"
+  },
+
+  "errors": {
+    "required": "This field is required",
+    "invalidEmail": "Invalid email address",
+    "passwordMismatch": "Passwords do not match",
+    "minimumLength": "Must be at least {{length}} characters",
+    "invalidAmount": "Invalid amount",
+    "networkError": "Network error. Please try again",
+    "unauthorized": "Unauthorized access",
+    "notFound": "Not found",
+    "serverError": "Server error. Please try again later"
+  }
+}
