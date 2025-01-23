@@ -100,7 +100,7 @@ export default function Sidebar({ open, toggleDrawer }) {
       >
         {open && (
           <Typography variant="h6" color="primary" noWrap>
-            FARMFOLIO
+            AGROMANAGER
           </Typography>
         )}
         <IconButton onClick={toggleDrawer}>

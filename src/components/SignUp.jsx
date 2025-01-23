@@ -35,11 +35,11 @@ export default function SignUp() {
 
   // State for form data and errors
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
-    email: "",
-    password: "",
-    confirmPassword: "",
+    firstName: "sam",
+    lastName: "kumar",
+    email: "sam@gmail.com",
+    password: "password@",
+    confirmPassword: "password@",
   });
   const [errors, setErrors] = useState({});
 
@@ -110,18 +110,32 @@ export default function SignUp() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setShowLoading(true);
-
+    console.log("Line 113");
     const validationErrors = validateForm();
+    console.log("Line 115");
     setErrors(validationErrors);
+    console.log("Line 116");
+
+    if(Object.keys(validationErrors).length > 0){
+      setSnackbar({
+        open: true,
+        message: "Please fix the form errors before submitting.",
+        severity: "error",
+      });
+      return;
+    }
 
     // If there are no errors, proceed to create account
     if (Object.keys(validationErrors).length === 0) {
       try {
+        console.log("Line 120");
+        console.log(auth + formData);
         await createUserWithEmailAndPassword(
           auth,
           formData.email,
           formData.password
         );
+        console.log("Line 127");
 
         const user = auth.currentUser;
 
@@ -156,12 +170,6 @@ export default function SignUp() {
       }finally{
         setShowLoading(false);
       }
-    } else {
-      setSnackbar({
-        open: true,
-        message: "Please fix the form errors before submitting.",
-        severity: "error",
-      });
     }
   };
 
@@ -374,7 +382,7 @@ export default function SignUp() {
         </Alert>
       </Snackbar>
 
-      {showLoading && <LoadingAnimation message="Welcome to FARMFOLIO..." />}
+      {/* {showLoading && <LoadingAnimation message="Welcome to AgroManager..." />} */}
     </Grid>
   );
 }

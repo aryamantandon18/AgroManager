@@ -276,7 +276,7 @@ export default function Login() {
         </Alert>
       </Snackbar>
 
-      {showLoading && <LoadingAnimation message="Welcome to FARMFOLIO..." />}
+      {/* {showLoading && <LoadingAnimation message="Welcome to AGROMANAGER..." />} */}
     </Grid>
   );
 }
