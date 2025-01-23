@@ -14,7 +14,7 @@ import { useTranslation } from "react-i18next";
 const languages = [
   { code: "en", name: "English", flag: "🇬🇧" },
   { code: "hi", name: "हिंदी", flag: "🇮🇳" },
-  { code: "te", name: "తెలుగు", flag: "🇮🇳" },
+  { code: "fr", name: "French", flag: "FR" },
 ];
 
 export default function LanguageSwitcher() {

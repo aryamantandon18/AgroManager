@@ -24,8 +24,8 @@
   "hero": {
     "welcome": "Welcome to",
     "title": "AgroManager",
-    "para":"Empowering farmers to track expenses, optimize resources, and grow smarter. FarmFolio is your one-stop solution for managing every detail of your farm with ease.",
-    "subtitle": "Track your farm expenses, analyze reports, and get AI-powered insights with FarmFolio",
+    "para":"Empowering farmers to track expenses, optimize resources, and grow smarter. AgroManager is your one-stop solution for managing every detail of your farm with ease.",
+    "subtitle": "Track your farm expenses, analyze reports, and get AI-powered insights with AgroManager",
     "cta": "Get Started"
   },
 
@@ -44,7 +44,7 @@
   "testimonials":{
     "heading": "What Our Users Say",
     "name1": "Naman Jain",
-    "review1": "FarmFolio has made it so easy for me to manage my farm expenses. I can now track everything in one place.",
+    "review1": "AgroManager has made it so easy for me to manage my farm expenses. I can now track everything in one place.",
     "name2": "Arjun Reddy",
     "review2": "The analytics feature helped me identify areas to cut costs.",
     "name3": "Sarthak Tyagi",
@@ -53,12 +53,12 @@
 
   "ctasection":{
     "title":"Ready to streamline your farm management?",
-    "subtitle":"Join FarmerFolio today and take control of your farm's finances.",
+    "subtitle":"Join AgroManager today and take control of your farm's finances.",
     "cta":"Get Started"
   },
 "footer":{
-    "aboutUs": "About FarmFolio",
-    "aboutUsDesc": "FarmerFolio is dedicated to helping farmers manage their expenses and optimize resources to grow smarter.",
+    "aboutUs": "About AgroManager",
+    "aboutUsDesc": "AgroManager is dedicated to helping farmers manage their expenses and optimize resources to grow smarter.",
     "quickLinks": "Quick Links",
     "features": "Features",
     "pricing": "Pricing",
@@ -71,7 +71,7 @@
 },
 
 "signup":{
-    "heading": "Join FarmFolio",
+    "heading": "Join AgroManager",
     "subheading": "Empower your farming journey with ease.",
     "signup": "Sign Up",
     "haveAccount": "Already have an account?",
@@ -87,7 +87,7 @@
 
 "login":{
     "welcomeBack": "Welcome Back",
-    "subheading": "Track your farms effortlessly with FarmFolio.",
+    "subheading": "Track your farms effortlessly with AgroManager.",
     "email": "Email",
     "password": "Password",
     "login": "Login",
@@ -124,7 +124,7 @@
   },
 
   "dashboard": {
-    "welcome": "Welcome to FarmFolio",
+    "welcome": "Welcome to AgroManager",
     "totalFarms": "Total Farms",
     "totalExpenses": "Total Expenses",
     "recentExpenses": "Recent Expenses",
